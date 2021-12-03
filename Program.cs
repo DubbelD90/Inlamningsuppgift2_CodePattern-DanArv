@@ -10,11 +10,13 @@ namespace ConsoleApp1
         {
             var decoratorRun = new DecoratorRun();
             var strategyRun = new StrategyRun();
+            var repositoryRun = new RepositoryRun();
+            var observerRun = new ObserverRun();
 
-            decoratorRun.Run();
-            //Repository.Run();
+            //decoratorRun.Run();
+            //repositoryRun.Run();
             //strategyRun.Run();
-            //Observer.Run();
+            observerRun.Run();
         }     
     }
 }
